@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shooting Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="gameFrame" class="firstGame" onclick="myShootingEffects()">
+
+  <div id="healthBar"></div>
+
+  <div class="ennemy" style="left: 030px;"></div>
+  <div class="ennemy" style="left: 200px;"></div>
+  <div class="ennemy" style="left: 330px;"></div>
+  <div class="ennemy" style="left: 430px;"></div>
+  <div class="ennemy" style="left: 500px;"></div>
+  <div class="ennemy" style="left: 640px;"></div>
+
+  <button onclick="newGame()" id="newGame">
+
+    <span class="messageWon">
+      <span class="emoji"><img src="Gifs/gif.gif" alt=""></span> Oh yes!
+    </span>
+    <span class="messageDead">
+      <span class="emoji"><img src="Images/pic4.jpg" class="pic_3" alt=""></span> Oh No
+    </span>
+    <span class="messageWelcome">
+      <span class="emoji"><img src="Images/pic2.jpg" class="pic_2" alt=""></span> <img src="Images/pic1.jpg" class="pic_1" alt="">
+    </span>
+
+    <p>👉 New game</p>
+
+  </button>
+
+</main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
